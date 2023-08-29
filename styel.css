@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  justify-content: center;
+}
+.container .navbar {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container .navbar .marj ul {
+  display: flex;
+  margin-top: 20px;
+}
+.container .navbar .marj li:not(:last-child) {
+  margin-right: 30px;
+}
+.container .navbar .marj li {
+  font-size: 15px;
+}
+.container .navbar .marj li:hover {
+  transition: all 0.5s ease;
+  color: blue;
+  cursor: pointer;
+}
+
+.boxing {
+  margin-top: 20px;
+}
+.boxing .boxing-btn {
+  padding: 5px 10px;
+  background: transparent;
+  border: none;
+}
+.boxing .boxing-btn2 {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background: transparent;
+  border: none;
+}
+
+.bodyer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+  margin-left: 70px;
+}
+.bodyer .box1 {
+  margin-top: 50px;
+  margin-left: -100px;
+}
+.bodyer .box1 .box-p {
+  font-size: 20px;
+  color: rgb(89, 89, 247);
+  font-weight: 700;
+  margin-top: 30px;
+}
+.bodyer .box1 .box-h2 {
+  font-size: 60px;
+}
+.bodyer .box1 .item1 {
+  width: 300px;
+}
+.bodyer .box1 .item1 .box-p2 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.bodyer .box1 .box-a {
+  font-size: 17px;
+  text-decoration: underline;
+  margin-top: 70px;
+}
+.bodyer .box1 .item2 {
+  margin-top: 20px;
+}
+.bodyer .rasm1 {
+  width: 600px;
+  margin-left: -400px;
+}
+
+.yangi-joy {
+  margin-top: 200px;
+  display: flex;
+  margin-left: 260px;
+}
+.yangi-joy .item3 {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+}
+.yangi-joy .item4 {
+  width: 320px;
+  position: relative;
+  height: 320px;
+  border-radius: 10px;
+  margin-left: 250px;
+}
+.yangi-joy .item5 {
+  width: 320px;
+  position: relative;
+  height: 320px;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+.yangi-joy .son1 {
+  width: 180px;
+  margin-top: 110px;
+  margin-left: 10px;
+}
+.yangi-joy .son2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.item3:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.item4:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.item5:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.rasmcha {
+  width: 12px;
+}
+
+.container-btn {
+  padding: 12px 24px;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  justify-content: center;
+  margin-left: 880px;
+}
+
+.container-p {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.bodyer .super {
+  display: flex;
+}
+.bodyer .super .nest {
+  width: 300px;
+  margin-left: 40px;
+}
+.bodyer .super .odam {
+  width: 500px;
+  margin-left: 30px;
+}
+.bodyer .rasm2 {
+  width: 350px;
+  margin-left: 20px;
+}
+
+.yangi-mest {
+  margin-left: 410px;
+  margin-top: -570px;
+}
+
+.feruz {
+  width: 680px;
+  margin-left: 410px;
+}
+
+.kartinka {
+  margin-left: 360px;
+}
+
+.footer {
+  margin-top: 70px;
+  display: flex;
+}
+.footer .kar1 {
+  width: 350px;
+  height: 250px;
+  margin-left: 400px;
+}
+.footer .kar2 {
+  width: 350px;
+  height: 250px;
+  margin-left: 50px;
+}
+.footer .kar3 {
+  width: 350px;
+  height: 250px;
+  margin-left: 50px;
+}
+.footer .press {
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.footer .oyoq {
+  width: 330px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.footer .oyoq .footer-h2 {
+  font-size: 20px;
+}
+.footer .oyoq .footer-p {
+  font-size: 14px;
+}
+.footer .kar1:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+}
+.footer .kar2:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+}
+.footer .kar3:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+}
+
+.oyoqer-img {
+  margin-left: 350px;
+  margin-top: 70px;
+}
+
+.oyoqer-img2 {
+  margin-top: 70px;
+}/*# sourceMappingURL=styel.css.map */
